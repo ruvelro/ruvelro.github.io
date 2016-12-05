@@ -3,62 +3,53 @@
 <head>
 
 <title>CV</title>
+<meta name="theme-color" content="black">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
 
 <style>
-
 body {
-	max-width: 25cm;
+	max-width: 21cm;
 	margin:auto;
 	line-height: 1.5em;
 }
-
 h1 {
 	margin: 2em 0 0 0;
 	text-align: center;
+	font-size: 32px;
 }
-
 h2 {margin: 1em 0 0 0;}
-
 main {display: flex;}
-
 aside {
 	margin: 2em 1em; 
 	text-align: right;
 }
-
 article {
 	flex-grow: 1;
 	margin: 0 1em;
 }
-
 ul, dd, dt {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
-
 dt {
 	font-weight: bold;
 	font-size: large;
 	margin: 1em 0 0 0;
 }
-
 a {
 	text-decoration: none;
 	color: black;
 }
-
-@media all and (max-width: 900px) {
+@media screen and (orientation:portrait) {
     main {flex-direction: column;}
     aside {
     	text-align: left;
     	margin: 0 1em;
     }
 }
-
 .secret {display: none;}
-
 </style>
 </head>
 <body>
